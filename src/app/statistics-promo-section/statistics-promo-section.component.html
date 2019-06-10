@@ -1,0 +1,7 @@
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+	<div class="w3-quarter" *ngFor="let statistic of statisticSections | async">
+		<span class="w3-xxlarge">{{statistic.number}}+</span>
+    <br>{{statistic.statistic}}
+  </div>
+</div>

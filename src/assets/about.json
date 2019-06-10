@@ -1,0 +1,22 @@
+[
+  {
+    "field": "Responsive",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "icon": "fa-desktop"
+  },
+  {
+    "field": "Passion",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "icon": "fa-heart"
+  },
+  {
+    "field": "Design",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "icon": "fa-diamond"
+  },
+  {
+    "field": "Support",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    "icon": "fa-cog"
+  }
+]
