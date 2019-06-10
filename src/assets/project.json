@@ -1,14 +1,17 @@
-[
-  {
-    "screen": "/w3images/tech_tablet.jpg",
-    "name": "tech_tablet"
-  },
-  {
-    "screen": "/w3images/tech_tablet.jpg",
-    "name": "tech_tablet"
-  },
-  {
-    "screen": "/w3images/tech_tablet.jpg",
-    "name": "tech_tablet"
-  }
+[{
+        "screen": "assets/img/project/project.png",
+        "name": "tech_tablet"
+    },
+    {
+        "screen": "assets/img/project/project.png",
+        "name": "tech_tablet"
+    },
+    {
+        "screen": "assets/img/project/project.png",
+        "name": "tech_tablet"
+    },
+    {
+        "screen": "assets/img/project/project.png",
+        "name": "tech_tablet"
+    }
 ]

@@ -1,23 +1,29 @@
-[
-  {
-    "avatar": "/w3images/team2.jpg",
-    "id": "John",
-    "name": "John Doe",
-    "field": "CEO & Founder",
-    "description":   "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
-  },
-  {
-    "avatar": "/w3images/team3.jpg",
-    "id": "Jane",
-    "name": "Anja Doe",
-    "field": "Art Director",
-    "description":   "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
-  },
-  {
-    "avatar": "/w3images/team4.jpg",
-    "id": "Dan",
-    "name": "Dan Star",
-    "field": "Designer",
-    "description":   "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
-  }
+[{
+        "avatar": "assets/img/avatar/avatar.jpg",
+        "id": "John",
+        "name": "John Doe",
+        "field": "CEO & Founder",
+        "description": "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
+    },
+    {
+        "avatar": "assets/img/avatar/avatar.jpg",
+        "id": "Jane",
+        "name": "Anja Doe",
+        "field": "Art Director",
+        "description": "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
+    },
+    {
+        "avatar": "assets/img/avatar/avatar.jpg",
+        "id": "Dan",
+        "name": "Dan Star",
+        "field": "Designer",
+        "description": "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
+    },
+    {
+        "avatar": "assets/img/avatar/avatar.jpg",
+        "id": "Dan",
+        "name": "Dan Star",
+        "field": "Designer",
+        "description": "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
+    }
 ]

@@ -10,6 +10,10 @@ export class JsonHandlerService {
     return this.http.get('/assets/about.json');
   }
 
+  getSoftwareSectionData() {
+    return this.http.get('/assets/software.json');
+  }
+
   getTeamSectionData() {
     return this.http.get('/assets/team.json');
   }

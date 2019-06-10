@@ -1,0 +1,21 @@
+[{
+        "software": "Mobile app development",
+        "icon": "fa-desktop"
+    },
+    {
+        "software": "Front-end web application development",
+        "icon": "fa-desktop"
+    },
+    {
+        "software": "Back-end (Server) web application development",
+        "icon": "fa-desktop"
+    },
+    {
+        "software": "Embedded software development",
+        "icon": "fa-desktop"
+    },
+    {
+        "software": "Software testing (automated testing, manual testing)",
+        "icon": "fa-desktop"
+    }
+]

@@ -7,8 +7,10 @@ import { JsonHandlerService } from '../jsonHandler.service';
 })
 export class AboutSectionComponent implements OnInit {
   aboutSections;
+  softwareSections;
   constructor(private jsonHandlerService: JsonHandlerService) {
     this.aboutSections = this.jsonHandlerService.getAboutSectionData();
+    this.softwareSections = this.jsonHandlerService.getSoftwareSectionData();
   }
 
   ngOnInit() {

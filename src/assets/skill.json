@@ -1,14 +1,33 @@
-[
-  {
-    "skill": "/w3images/tech_tablet.jpg",
-    "name": "tech_tablet"
-  },
-  {
-    "skill": "/w3images/tech_tablet.jpg",
-    "name": "tech_tablet"
-  },
-  {
-    "skill": "/w3images/tech_tablet.jpg",
-    "name": "tech_tablet"
-  }
+[{
+        "skill": "assets/img/skills/php.png",
+        "name": "php"
+    },
+    {
+        "skill": "assets/img/skills/docker.png",
+        "name": "docker"
+    },
+    {
+        "skill": "assets/img/skills/react.png",
+        "name": "react"
+    },
+    {
+        "skill": "assets/img/skills/logomark.png",
+        "name": "logomark"
+    },
+    {
+        "skill": "assets/img/skills/MongoDB.png",
+        "name": "MongoDB"
+    },
+    {
+        "skill": "assets/img/skills/python.png",
+        "name": "python"
+    },
+    {
+        "skill": "assets/img/skills/angular.png",
+        "name": "angular"
+    },
+    {
+        "skill": "assets/img/skills/ionic.png",
+        "name": "ionic"
+    }
 ]
