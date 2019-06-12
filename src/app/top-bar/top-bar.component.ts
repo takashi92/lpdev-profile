@@ -12,7 +12,11 @@ export class TopBarComponent implements OnInit {
   ngOnInit() {
   }
   w3_open() {
-    this.mySidebarDisplay = true;
+    if (this.mySidebarDisplay) {
+      this.mySidebarDisplay = false;
+    } else {
+      this.mySidebarDisplay = true;
+    }
   }
 
   w3_close() {

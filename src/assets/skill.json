@@ -7,6 +7,10 @@
         "name": "ionic"
     },
     {
+        "skill": "assets/img/skills/react.png",
+        "name": "react"
+    },
+    {
         "skill": "assets/img/skills/python.png",
         "name": "python"
     },
@@ -14,13 +18,22 @@
         "skill": "assets/img/skills/java.png",
         "name": "java"
     },
+
+    {
+        "skill": "assets/img/skills/ruby.png",
+        "name": "ruby"
+    },
+    {
+        "skill": "assets/img/skills/net.png",
+        "name": "dotnet"
+    },
     {
         "skill": "assets/img/skills/php.png",
         "name": "php"
     },
     {
-        "skill": "assets/img/skills/react.png",
-        "name": "react"
+        "skill": "assets/img/skills/wordpress.png",
+        "name": "wordpress"
     },
     {
         "skill": "assets/img/skills/docker.png",

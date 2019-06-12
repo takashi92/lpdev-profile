@@ -1,8 +1,14 @@
 [{
-        "avatar": "assets/img/avatar/dung.jpg",
+        "avatar": "assets/img/avatar/tu.jpg",
         "id": "dung",
         "name": "Dung",
         "field": "CEO & Founder"
+    },
+    {
+        "avatar": "assets/img/avatar/dung.jpg",
+        "id": "dung",
+        "name": "Dung",
+        "field": "Director"
     },
     {
         "avatar": "assets/img/avatar/long.jpg",
@@ -14,18 +20,30 @@
         "avatar": "assets/img/avatar/minh.jpg",
         "id": "minh",
         "name": "Minh",
-        "field": "Designer"
+        "field": "Apple Developer"
+    },
+    {
+        "avatar": "assets/img/avatar/tuananh.jpg",
+        "id": "tuananh",
+        "name": "Tuan Anh",
+        "field": "Front End Developer"
     },
     {
         "avatar": "assets/img/avatar/duc.jpg",
         "id": "duc",
         "name": "Duc",
-        "field": "Designer"
+        "field": "Developer"
     },
     {
         "avatar": "assets/img/avatar/hieu.jpg",
         "id": "hieu",
         "name": "Hieu",
+        "field": "Developer"
+    },
+    {
+        "avatar": "assets/img/avatar/manh.jpg",
+        "id": "manh",
+        "name": "Manh",
         "field": "Developer"
     }
 ]
