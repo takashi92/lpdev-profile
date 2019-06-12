@@ -1,0 +1,12 @@
+.service-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: #00CCFF;
+}
+
+.service-title {
+    padding: 3px;
+    vertical-align: middle;
+}

@@ -15,6 +15,7 @@ import { WorkSectionComponent } from './work-section/work-section.component';
 import { SkillsSectionComponent } from './skills-section/skills-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { FooterSectionComponent } from './footer-section/footer-section.component';
+import { SoftwareServiceSectionComponent } from './software-service-section/software-service-section.component';
 
 @NgModule({
   imports: [
@@ -35,7 +36,8 @@ import { FooterSectionComponent } from './footer-section/footer-section.componen
     WorkSectionComponent,
     SkillsSectionComponent,
     ContactSectionComponent,
-    FooterSectionComponent
+    FooterSectionComponent,
+    SoftwareServiceSectionComponent
   ],
   bootstrap: [AppComponent],
   providers: [JsonHandlerService]

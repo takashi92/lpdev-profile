@@ -1,21 +1,16 @@
 [{
         "field": "Products",
         "description": "We always believe that with the same effort, if you work smarter, you will boost your productivities. Let's check our innovation products.",
-        "icon": "fa-desktop"
+        "icon": "assets/img/about/product.png"
     },
     {
         "field": "Outsourcing",
         "description": "With 12+ year's experience in Europe, we'd like to share our skills for helping you build your business. Let's take a look on our realized projects.",
-        "icon": "fa-heart"
-    },
-    {
-        "field": "Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-        "icon": "fa-diamond"
+        "icon": "assets/img/about/outsource.png"
     },
     {
         "field": "Support",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-        "icon": "fa-cog"
+        "icon": "assets/img/about/support.png"
     }
 ]

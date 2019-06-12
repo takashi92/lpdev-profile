@@ -1,29 +1,31 @@
 [{
-        "avatar": "assets/img/avatar/avatar.jpg",
-        "id": "John",
-        "name": "John Doe",
-        "field": "CEO & Founder",
-        "description": "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
+        "avatar": "assets/img/avatar/dung.jpg",
+        "id": "dung",
+        "name": "Dung",
+        "field": "CEO & Founder"
     },
     {
-        "avatar": "assets/img/avatar/avatar.jpg",
-        "id": "Jane",
-        "name": "Anja Doe",
-        "field": "Art Director",
-        "description": "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
+        "avatar": "assets/img/avatar/long.jpg",
+        "id": "long",
+        "name": "Long",
+        "field": "Art Director"
     },
     {
-        "avatar": "assets/img/avatar/avatar.jpg",
-        "id": "Dan",
-        "name": "Dan Star",
-        "field": "Designer",
-        "description": "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
+        "avatar": "assets/img/avatar/minh.jpg",
+        "id": "minh",
+        "name": "Minh",
+        "field": "Designer"
     },
     {
-        "avatar": "assets/img/avatar/avatar.jpg",
-        "id": "Dan",
-        "name": "Dan Star",
-        "field": "Designer",
-        "description": "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
+        "avatar": "assets/img/avatar/duc.jpg",
+        "id": "duc",
+        "name": "Duc",
+        "field": "Designer"
+    },
+    {
+        "avatar": "assets/img/avatar/hieu.jpg",
+        "id": "hieu",
+        "name": "Hieu",
+        "field": "Developer"
     }
 ]

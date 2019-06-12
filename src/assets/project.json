@@ -1,17 +1,29 @@
 [{
-        "screen": "assets/img/project/project.png",
+        "screen": "assets/img/project/dich-ly-screen1.jpg",
         "name": "tech_tablet"
     },
     {
-        "screen": "assets/img/project/project.png",
+        "screen": "assets/img/project/dich-ly-screen2.jpg",
         "name": "tech_tablet"
     },
     {
-        "screen": "assets/img/project/project.png",
+        "screen": "assets/img/project/vifish-screen1.jpg",
         "name": "tech_tablet"
     },
     {
-        "screen": "assets/img/project/project.png",
+        "screen": "assets/img/project/vifish-screen1.jpg",
+        "name": "tech_tablet"
+    },
+    {
+        "screen": "assets/img/project/vifish-screen2.jpg",
+        "name": "tech_tablet"
+    },
+    {
+        "screen": "assets/img/project/vifish-screen3.jpg",
+        "name": "tech_tablet"
+    },
+    {
+        "screen": "assets/img/project/vifish-screen4.jpg",
         "name": "tech_tablet"
     }
 ]

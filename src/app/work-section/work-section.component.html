@@ -4,7 +4,7 @@
     <p class="w3-center w3-large">What we've done for people</p>
 
     <div class="w3-row-padding" style="margin-top:64px">
-        <div class="w3-col l3 m6" *ngFor="let project of projectSections | async">
+        <div class="w3-col l3 m6" *ngFor="let project of projectSections | async" id="work">
             <img src="{{project.screen}}" style="width:100%" class="w3-hover-opacity" alt="{{project.name}}">
         </div>
     </div>
