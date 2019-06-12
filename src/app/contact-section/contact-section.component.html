@@ -1,14 +1,21 @@
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-    <h3 class="w3-center">CONTACT</h3>
-    <p class="w3-center w3-large">Email us with any questions or inquiries or call for realize your offshore software outsourcing plan.<br> We would be happy to answer your questions and set up a meeting with you.</p>
-    <div style="margin-top:48px" *ngFor="let contact of contactSection | async">
-        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> {{contact.address}}</p>
-        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: {{contact.phone}}</p>
-        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: {{contact.email}}</p>
-        <br>
+<div class="w3-container" style="padding:128px 16px" id="contact">
+    <div class="w3-col m6">
+        <h2 class="w3-text-blue">Contact us
+        </h2>
+        <p class="w3-left w3-large">Email us with any questions or inquiries or call for realize your offshore software outsourcing plan. We would be happy to answer your questions and set up a meeting with you.</p>
+        <div *ngFor="let contact of contactSection | async">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right w3-text-blue"></i> {{contact.address}}</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right w3-text-blue"></i> Phone: {{contact.phone}}</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right w3-text-blue"> </i> Email: {{contact.email}}
+            </p>
+            <br>
+        </div>
     </div>
-    <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+    <div class="w3-col m6">
+        <app-map-section></app-map-section>
+    </div>
+    <!-- <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
         <p>
             <input class="w3-input w3-border" type="text" formControlName="name" required placeholder="Name">
         </p>
@@ -23,5 +30,5 @@
         </p>
         <p><button class="w3-button w3-black" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button></p>
 
-    </form>
+    </form> -->
 </div>

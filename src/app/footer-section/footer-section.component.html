@@ -1,13 +1,35 @@
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-	<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<footer class="w3-container w3-blue-grey w3-text-white w3-padding-16">
+    <!-- <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> -->
+    <div class="footer">
+        <div class="w3-third w3-section w3-left">
+            <div class="fa">
+                <h4>OFFSHORE OUTSOURCING SERVICES</h4>
+                <!-- End Logo -->
+                <p>
+                    LPDEV is a company who provides professional software outsourcing services mainly in France, Italy, Japan, Switzerland and Germany. With more than 15 years of experience and high commitment in quality, IFI Solution has successfully carried out hundreds
+                    of projects in different domains including Telecom, Energy, Healthcare, Automotive, Data Management, Finance and Banking.
+            </div>
+        </div>
+        <div class="w3-third w3-section w3-center">
+            <ul class="fa">
+                <li class="w3-large  quick-link"><a href="#about">Services</a></li>
+                <li class="w3-large  quick-link"><a href="#work">Projects</a></li>
+                <li class="w3-large  quick-link"><a href="#team">Team</a></li>
+            </ul>
+        </div>
+        <div class="w3-third w3-section  w3-left w3-right">
+            <div class="fa ">
+                <!-- Address -->
+                <div class=" w3-left" *ngFor="let contact of contactSection | async">
+                    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> {{contact.address}}</p>
+                    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: {{contact.phone}}</p>
+                    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: {{contact.email}}</p>
+                    <br>
+                </div>
+                <!-- End Address -->
+            </div>
+        </div>
+
+    </div>
 </footer>
