@@ -1,9 +1,15 @@
 #mySidebar {
     text-align: center;
-    height: 300px;
+    height: 280px;
     width: 200px;
-    background-color: cadetblue;
+    background-color: #00CCFF;
     position: relative;
     z-index: 1;
     overflow: auto;
+}
+
+.logo {
+    font-weight: 700;
+    margin-left: .5rem;
+    color: #377dff;
 }
