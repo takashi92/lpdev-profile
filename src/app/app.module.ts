@@ -16,7 +16,6 @@ import { SkillsSectionComponent } from './skills-section/skills-section.componen
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { FooterSectionComponent } from './footer-section/footer-section.component';
 import { SoftwareServiceSectionComponent } from './software-service-section/software-service-section.component';
-import { AgmCoreModule } from '@agm/core';
 import { MapSectionComponent } from './map-section/map-section.component';
 
 @NgModule({
@@ -24,9 +23,6 @@ import { MapSectionComponent } from './map-section/map-section.component';
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAvcDy5ZYc2ujCS6TTtI3RYX5QmuoV8Ffw'
-    }),
     RouterModule.forRoot([
       { path: '', component: AboutSectionComponent },
     ])
