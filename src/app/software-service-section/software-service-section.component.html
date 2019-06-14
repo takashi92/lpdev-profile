@@ -1,15 +1,23 @@
-<div class="w3-container w3-light-grey" style="padding:28px 16px">
-    <div class="w3-row-padding">
-        <h2>Our software services</h2>
-        <div class="w3-col m6">
-            <div *ngFor="let software of softwareSections | async">
-                <i class="fa {{software.icon}} service-icon"></i>
-                <b service-title> {{software.software}}</b>
-            </div>
-            <p><a href="#work" class="w3-button w3-blue"><i class="fa fa-th"> </i> View Our Works</a></p>
-        </div>
-        <div class="w3-col m6">
-            <img class="w3-image w3-round-large" src="/assets/img/about/services.jpg" alt="Buildings" width="400px" height="200px">
-        </div>
+<div class="w3-container w3-light-grey" id="about">
+  <div class="w3-col m6" style="padding-left: 50px">
+    <h2>Our software services</h2>
+    <div *ngFor="let software of softwareSections | async">
+      <i class="fa {{ software.icon }} service-icon"></i>
+      <b service-title> {{ software.software }}</b>
     </div>
+    <p>
+      <a href="#work" class="w3-button w3-blue"
+        ><i class="fa fa-th"> </i> View Our Works</a
+      >
+    </p>
+  </div>
+  <div class="w3-col m6 padding" style="text-align: center">
+    <img
+      class="w3-image w3-round-large"
+      src="/assets/img/about/services.jpg"
+      alt="Buildings"
+      width="400px"
+      height="200px"
+    />
+  </div>
 </div>

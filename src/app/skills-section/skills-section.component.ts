@@ -6,9 +6,16 @@ import { JsonHandlerService } from '../jsonHandler.service';
   styleUrls: ['./skills-section.component.css']
 })
 export class SkillsSectionComponent implements OnInit {
-  skillSections;
+  public frontendSkills = [];
+  public backendSkills = [];
+  public others = [];
   constructor(private jsonHandlerService: JsonHandlerService) {
-    this.skillSections = this.jsonHandlerService.getSkillsSectionData();
+    this.jsonHandlerService.getSkillsSectionData().subscribe((skills) => {
+      this.frontendSkills = skills.frontend;
+      this.backendSkills = skills.backend;
+      this.others = skills.others;
+    })
+    
    }
 
   ngOnInit() {

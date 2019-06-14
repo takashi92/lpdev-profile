@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable()
 export class JsonHandlerService {
@@ -26,7 +27,7 @@ export class JsonHandlerService {
     return this.http.get('/assets/project.json');
   }
 
-  getSkillsSectionData() {
+  getSkillsSectionData(): Observable<any> {
     return this.http.get('/assets/skill.json');
   }
 

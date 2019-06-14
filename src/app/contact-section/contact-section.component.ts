@@ -8,24 +8,12 @@ import { JsonHandlerService } from '../jsonHandler.service';
   styleUrls: ['./contact-section.component.css']
 })
 export class ContactSectionComponent implements OnInit {
-  contactSection;
-  checkoutForm;
-  constructor(private formBuilder: FormBuilder,
+  public contactSection;
+  constructor(
     private jsonHandlerService: JsonHandlerService) {
     this.contactSection = this.jsonHandlerService.getContactSectionData();
-    this.checkoutForm = this.formBuilder.group({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
   }
 
   ngOnInit() {
   }
-
-  onSubmit(customerData) {
-    this.checkoutForm.reset();
-  }
-
 }
