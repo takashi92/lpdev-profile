@@ -6,10 +6,13 @@ import { JsonHandlerService } from '../jsonHandler.service';
   styleUrls: ['./work-section.component.css']
 })
 export class WorkSectionComponent implements OnInit {
-  projectSections;
+  projectSections: any[] = [];
   constructor(private jsonHandlerService: JsonHandlerService) {
-     this.projectSections = this.jsonHandlerService.getProjectSectionData();
-   }
+    this.jsonHandlerService.getProjectSectionData().subscribe(projects => {
+      this.projectSections.push(projects.dichly);
+      this.projectSections.push(projects.vifish);
+    });
+  }
 
   ngOnInit() {
   }

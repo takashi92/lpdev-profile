@@ -17,12 +17,16 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
 import { FooterSectionComponent } from './footer-section/footer-section.component';
 import { SoftwareServiceSectionComponent } from './software-service-section/software-service-section.component';
 import { MapSectionComponent } from './map-section/map-section.component';
+import {SlideshowModule} from 'ng-simple-slideshow';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
+    SlideshowModule,
+    NgImageSliderModule,
     RouterModule.forRoot([
       { path: '', component: AboutSectionComponent },
     ])
