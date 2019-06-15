@@ -1,6 +1,15 @@
-.slider {
-    float: left;
+.bgmobile {
+    background-image: url('/assets/img/project/mobile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
-    padding: 10px;
-    justify-content: center;
+    height: 400px;
+}
+
+.bgdesktop {
+    background-image: url('/assets/img/project/desktop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
 }

@@ -1,36 +1,10 @@
 <!-- Footer -->
 <footer class="w3-container w3-blue-grey w3-text-white w3-padding-16">
-    <!-- <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> -->
-    <div class="footer">
-        <div class="w3-third w3-section w3-left">
-            <div class="">
-                <h4>OFFSHORE OUTSOURCING SERVICES</h4>
-                <!-- End Logo -->
-                <p>
-                    We provides professional software outsourcing services with more than 5 years of experience and high commitment in quality.
-                    We has successfully carried out hundreds of projects in different domains including Telecom, Energy, Data Management, Finance and Banking.
-            </div>
-        </div>
-        <div class="w3-third w3-section w3-center">
-            <ul class="">
-                <li class="quick-link"><a href="#about">About</a></li>
-                <li class="quick-link"><a href="#team">Team</a></li>
-                <li class="quick-link"><a href="#work">Projects</a></li>
-                <li class="quick-link"><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-        <div class="w3-third w3-section  w3-left w3-right">
-            <div class="">
-                <!-- Address -->
-                <div class=" w3-left" *ngFor="let contact of contactSection | async">
-                    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> {{contact.address}}</p>
-                    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: {{contact.phone}}</p>
-                    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: {{contact.email}}</p>
-                    <br>
-                </div>
-                <!-- End Address -->
-            </div>
-        </div>
 
+    <div class="w3-right">
+        <a href="#home"><i class="fa fa-arrow-up"></i></a>
+    </div>
+    <div class="w3-center">
+        <i>Powered by <a href="#home" target="_blank" class="w3-hover-text-green">LPDEV</a> Team</i>
     </div>
 </footer>

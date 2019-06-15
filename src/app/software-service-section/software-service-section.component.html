@@ -1,13 +1,12 @@
 <div class="w3-container w3-light-grey" id="about">
-  <div class="w3-col m6" style="padding-left: 50px">
-    <h2>Our software services</h2>
-    <div *ngFor="let software of softwareSections | async">
-      <i class="fa {{ software.icon }} service-icon"></i>
-      <b service-title> {{ software.software }}</b>
-    </div>
-    <p>
-      <a href="#work" class="w3-button w3-blue"
-        ><i class="fa fa-th"> </i> View Our Works</a
+    <div class="w3-col m6" style="padding-left: 50px">
+        <h2>Our software services</h2>
+        <div *ngFor="let software of softwareSections | async">
+            <i class="fa {{ software.icon }} service-icon"></i>
+            <b service-title> {{ software.software }}</b>
+        </div>
+        <p>
+            <a href="#work" class="w3-button w3-blue"><i class="fa fa-th"> </i> View Our Works</a
       >
     </p>
   </div>

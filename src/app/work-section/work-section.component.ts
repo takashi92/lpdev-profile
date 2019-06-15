@@ -6,15 +6,24 @@ import { JsonHandlerService } from '../jsonHandler.service';
   styleUrls: ['./work-section.component.css']
 })
 export class WorkSectionComponent implements OnInit {
-  projectSections: any[] = [];
+  projectSections: Array<Project> = [];
+  selectedProject;
   constructor(private jsonHandlerService: JsonHandlerService) {
-    this.jsonHandlerService.getProjectSectionData().subscribe(projects => {
-      this.projectSections.push(projects.dichly);
-      this.projectSections.push(projects.vifish);
+    this.jsonHandlerService.getProjectSectionData().subscribe(project => {
+      this.projectSections=project;
     });
+    this.selectedProject = "assets/img/project/mobile/vifish-screen1.png";
   }
 
   ngOnInit() {
   }
 
+  imageOnClick(index) {
+    this.selectedProject = this.projectSections[index].image;
+  }
+}
+
+export interface Project {
+  image: string;
+  thumbImage: string;
 }

@@ -1,32 +1,25 @@
-{
-    "dichly": [{
-            "image": "assets/img/project/dich-ly-screen1.jpg",
-            "thumbImage": "assets/img/project/dich-ly-screen1.jpg"
-        },
-        {
-            "image": "assets/img/project/dich-ly-screen2.jpg",
-            "thumbImage": "assets/img/project/dich-ly-screen2.jpg"
-        }
-    ],
-    "vifish": [{
-            "image": "assets/img/project/vifish-screen1.jpg",
-            "thumbImage": "assets/img/project/vifish-screen1.jpg"
-        },
-        {
-            "image": "assets/img/project/vifish-screen1.jpg",
-            "thumbImage": "assets/img/project/vifish-screen1.jpg"
-        },
-        {
-            "image": "assets/img/project/vifish-screen2.jpg",
-            "thumbImage": "assets/img/project/vifish-screen2.jpg"
-        },
-        {
-            "image": "assets/img/project/vifish-screen3.jpg",
-            "thumbImage": "assets/img/project/vifish-screen3.jpg"
-        },
-        {
-            "screen": "assets/img/project/vifish-screen4.jpg",
-            "thumbImage": "assets/img/project/vifish-screen4.jpg"
-        }
-    ]
-}
+[{
+        "image": "assets/img/project/mobile/dich-ly-screen1.png",
+        "thumbImage": "assets/img/project/mobile/dich-ly-screen1.png"
+    },
+    {
+        "image": "assets/img/project/mobile/dich-ly-screen2.png",
+        "thumbImage": "assets/img/project/mobile/dich-ly-screen2.png"
+    },
+    {
+        "image": "assets/img/project/mobile/vifish-screen1.png",
+        "thumbImage": "assets/img/project/mobile/vifish-screen1.png"
+    },
+    {
+        "image": "assets/img/project/mobile/vifish-screen2.png",
+        "thumbImage": "assets/img/project/mobile/vifish-screen2.png"
+    },
+    {
+        "image": "assets/img/project/mobile/vifish-screen3.png",
+        "thumbImage": "assets/img/project/mobile/vifish-screen3.png"
+    },
+    {
+        "image": "assets/img/project/mobile/vifish-screen4.png",
+        "thumbImage": "assets/img/project/mobile/vifish-screen4.png"
+    }
+]
