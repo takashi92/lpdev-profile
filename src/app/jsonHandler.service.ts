@@ -23,7 +23,7 @@ export class JsonHandlerService {
     return this.http.get('/assets/statistics.json');
   }
 
-  getProjectSectionData() {
+  getProjectSectionData():Observable<any> {
     return this.http.get('/assets/project.json');
   }
 

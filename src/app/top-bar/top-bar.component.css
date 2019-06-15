@@ -5,9 +5,16 @@
     align-items: center;
     border-top: solid 1px #f1f1f1;
 }
+
 #mySidebar a {
     width: 100%;
 }
-.top-bar {    
+
+.top-bar {
     height: 40px;
+}
+
+.logo {
+    font-weight: 700;
+    color: #377dff;
 }

@@ -1,7 +1,8 @@
  /* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("/assets/img/imgbg.jpg");
-  min-height: 100%;
-}
+ 
+ .bgimg-1 {
+     background-position: center;
+     background-size: cover;
+     background-image: url("/assets/img/imgbg.jpg");
+     min-height: 100%;
+ }
