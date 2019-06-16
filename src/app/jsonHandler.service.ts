@@ -27,6 +27,10 @@ export class JsonHandlerService {
     return this.http.get('/assets/project.json');
   }
 
+  getProjectDetailData(): Observable<any> {
+    return this.http.get('/assets/detailproject.json');
+  }
+
   getSkillsSectionData(): Observable<any> {
     return this.http.get('/assets/skill.json');
   }
