@@ -1,57 +1,65 @@
 {
-  "frontend": [
-    {
-      "skill": "assets/img/skills/angular.png",
-      "name": "angular"
-    },
-    {
-      "skill": "assets/img/skills/ionic.png",
-      "name": "ionic"
-    },
-    {
-      "skill": "assets/img/skills/react.png",
-      "name": "react"
-    }
-  ],
-  "backend": [
-    {
-      "skill": "assets/img/skills/python.png",
-      "name": "python"
-    },
-    {
-      "skill": "assets/img/skills/java.png",
-      "name": "java"
-    },
-
-    {
-      "skill": "assets/img/skills/ruby.png",
-      "name": "ruby"
-    },
-    {
-      "skill": "assets/img/skills/net.png",
-      "name": "dotnet"
-    },
-    {
-      "skill": "assets/img/skills/php.png",
-      "name": "php"
-    }
-  ],
-  "others": [
-    {
-      "skill": "assets/img/skills/wordpress.png",
-      "name": "wordpress"
-    },
-    {
-      "skill": "assets/img/skills/docker.png",
-      "name": "docker"
-    },
-    {
-      "skill": "assets/img/skills/logomark.png",
-      "name": "logomark"
-    },
-    {
-      "skill": "assets/img/skills/MongoDB.png",
-      "name": "MongoDB"
-    }
-  ]
+    "frontend": [{
+            "skill": "assets/img/skills/angular.png",
+            "name": "angular"
+        },
+        {
+            "skill": "assets/img/skills/ionic.png",
+            "name": "ionic"
+        },
+        {
+            "skill": "assets/img/skills/react.png",
+            "name": "react"
+        },
+        {
+            "skill": "assets/img/skills/primeng.png",
+            "name": "primeNG"
+        },
+        {
+            "skill": "assets/img/skills/bootstrap.png",
+            "name": "bootstrap"
+        }
+    ],
+    "backend": [{
+            "skill": "assets/img/skills/python.png",
+            "name": "python"
+        },
+        {
+            "skill": "assets/img/skills/java.png",
+            "name": "java"
+        },
+        {
+            "skill": "assets/img/skills/spring.png",
+            "name": "spring"
+        },
+        {
+            "skill": "assets/img/skills/ruby.png",
+            "name": "ruby"
+        },
+        {
+            "skill": "assets/img/skills/net.png",
+            "name": "dotnet"
+        },
+        {
+            "skill": "assets/img/skills/php.png",
+            "name": "php"
+        }
+    ],
+    "others": [{
+            "skill": "assets/img/skills/wordpress.png",
+            "name": "wordpress"
+        },
+        {
+            "skill": "assets/img/skills/docker.png",
+            "name": "docker"
+        },
+        {
+            "skill": "assets/img/skills/logomark.png",
+            "name": "git"
+        },
+        {
+            "skill": "assets/img/skills/MongoDB.png",
+            "name": "mongoDB"
+        }
+    ]
 }

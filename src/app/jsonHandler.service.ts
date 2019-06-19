@@ -38,4 +38,8 @@ export class JsonHandlerService {
   getContactSectionData() {
     return this.http.get('/assets/contact.json');
   }
+
+  getCustomerSectionData(): Observable<any> {
+    return this.http.get('/assets/customer.json');
+  }
 }

@@ -19,6 +19,7 @@ import { SoftwareServiceSectionComponent } from './software-service-section/soft
 import { MapSectionComponent } from './map-section/map-section.component';
 import {SlideshowModule} from 'ng-simple-slideshow';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { CustomerSectionComponent } from './customer-section/customer-section.component';
 
 @NgModule({
   imports: [
@@ -43,7 +44,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
     ContactSectionComponent,
     FooterSectionComponent,
     SoftwareServiceSectionComponent,
-    MapSectionComponent
+    MapSectionComponent,
+    CustomerSectionComponent
   ],
   bootstrap: [AppComponent],
   providers: [JsonHandlerService]

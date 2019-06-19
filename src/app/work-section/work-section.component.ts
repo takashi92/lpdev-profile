@@ -8,15 +8,18 @@ import { JsonHandlerService } from '../jsonHandler.service';
 export class WorkSectionComponent implements OnInit {
   projectSections: Array<Project> = [];
   detailProjects: Array<DetailProject> = [];
+  allScreen: Array<Screen> = [];
   selectedScreenIndex = 0;
   selectedProjectIndex = 0;
   constructor(private jsonHandlerService: JsonHandlerService) {
     this.jsonHandlerService.getProjectSectionData().subscribe(project => {
       this.projectSections = project;
     });
-    this.jsonHandlerService.getProjectDetailData().subscribe(detail => {
-      this.detailProjects = detail;
-
+    this.jsonHandlerService.getProjectDetailData().subscribe(details => {
+      this.detailProjects = details;
+      for (var detail of details) {
+        Array.prototype.push.apply(this.allScreen,detail.screen);
+      }
     });
   }
 

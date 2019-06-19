@@ -26,3 +26,23 @@ ul {
     border: 1px solid #ececec;
     border-radius: 3px;
 }
+
+.skill-row {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.skill-item {
+    padding: 20px;
+}
+
+.skill-item img {
+    margin-right: 10px;
+}
+
+@media (max-width:601px) {
+    .skill-row {
+        flex-direction: column;
+    }
+}

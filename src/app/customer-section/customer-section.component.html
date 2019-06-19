@@ -1,0 +1,13 @@
+<div class="w3-container">
+    <h3 class="w3-center section-header w3-margin-bottom">Trusted by the prestigious corporations</h3>
+    <div class="w3-third w3-section w3-left">
+        <div class="">
+        </div>
+    </div>
+    <div class="w3-third w3-section w3-center" *ngIf="customers && customers.length > 0">
+        <ng-image-slider [images]="customers" [imageSize]="{width: 80, height:80}" [imagePopup]="false" [showArrow]="false" [autoSlide]="1" [infinite]="true" #nav>
+        </ng-image-slider>
+    </div>
+    <div class="w3-third w3-section  w3-left w3-right">
+    </div>
+</div>
