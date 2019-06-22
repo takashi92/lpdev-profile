@@ -20,6 +20,8 @@ import { MapSectionComponent } from './map-section/map-section.component';
 import {SlideshowModule} from 'ng-simple-slideshow';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { CustomerSectionComponent } from './customer-section/customer-section.component';
+import {NgbModule, NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   imports: [
@@ -28,6 +30,9 @@ import { CustomerSectionComponent } from './customer-section/customer-section.co
     ReactiveFormsModule,
     SlideshowModule,
     NgImageSliderModule,
+    NgbModule,
+    NgbPaginationModule,
+    NgbAlertModule,
     RouterModule.forRoot([
       { path: '', component: AboutSectionComponent },
     ])
