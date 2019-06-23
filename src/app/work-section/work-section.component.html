@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-2 col-sm-1"></div>
         <div class="col-md-8 col-sm-10" *ngIf="allScreen && allScreen.length > 0">
-            <ng-image-slider [images]="allScreen" [imageSize]="{width: 200, height:200}" [imagePopup]="false" [showArrow]="true" [autoSlide]="1" [infinite]="true" (imageClick)="imageOnClick(allScreen)" #nav>
+            <ng-image-slider [images]="allScreen" [imageSize]="{width: 200, height:200}" [imagePopup]="false" [showArrow]="true" [autoSlide]="1" [infinite]="true" (imageClick)="imageOnClick($event)" #nav>
             </ng-image-slider>
         </div>
         <div class="col-md-2 col-sm-1"></div>
