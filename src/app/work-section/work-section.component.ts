@@ -38,8 +38,8 @@ export class WorkSectionComponent implements OnInit {
   imageOnClick(index) {
     console.log("imageOnClick " + index);
     // this.slider.;
-    // this.selectedProject = this.selectedProjects.get(index);
-    // this.selectedScreen=this.selectedProject.screen[0].image;
+    this.selectedProject = this.selectedProjects.get(index);
+    this.selectedScreen=this.selectedProject.screen[0].image;
   }
 
   setSelectedScreen(image) {
