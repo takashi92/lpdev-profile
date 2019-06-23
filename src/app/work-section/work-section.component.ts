@@ -1,38 +1,49 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, } from '@angular/core';
 import { JsonHandlerService } from '../jsonHandler.service';
+import { NgImageSliderModule, NgImageSliderComponent } from 'ng-image-slider';
 @Component({
   selector: 'app-work-section',
   templateUrl: './work-section.component.html',
   styleUrls: ['./work-section.component.css']
 })
 export class WorkSectionComponent implements OnInit {
-  projectSections: Array<Project> = [];
-  detailProjects: Array<DetailProject> = [];
-  allScreen: Array<Screen> = [];
-  selectedScreenIndex = 0;
-  selectedProjectIndex = 0;
+  @ViewChild('nav',null) slider: NgImageSliderComponent;
+
+  allScreen: any[] = [];
+  selectedProjects = new Map();
+  selectedProject: DetailProject;
+  selectedScreen;
   constructor(private jsonHandlerService: JsonHandlerService) {
-    this.jsonHandlerService.getProjectSectionData().subscribe(project => {
-      this.projectSections = project;
-    });
+    // this.selectedScreen=slider.currentImageSrc;
     this.jsonHandlerService.getProjectDetailData().subscribe(details => {
-      this.detailProjects = details;
+      let index = 0;
+      this.selectedProject = details[0];
+      this.selectedScreen = this.selectedProject.screen[0].image;
       for (var detail of details) {
-        Array.prototype.push.apply(this.allScreen,detail.screen);
+        for (var screen of detail.screen) {
+          this.allScreen.push(screen);
+          index = index + 1;
+          this.selectedProjects.set(index, detail);
+        }
       }
     });
+    console.log(this.selectedProjects);
+
+    console.log( this.slider);
   }
 
   ngOnInit() {
   }
 
   imageOnClick(index) {
-    this.selectedScreenIndex = index;
-    // this.selectedProject =  this.detailProjects.find(detail => detail.code == selectedCode);
+    console.log("imageOnClick " + index);
+    // this.slider.;
+    // this.selectedProject = this.selectedProjects.get(index);
+    // this.selectedScreen=this.selectedProject.screen[0].image;
   }
 
-  projectOnClick(index) {
-    this.selectedProjectIndex = index;
+  setSelectedScreen(image) {
+    this.selectedScreen = image;
   }
 }
 
