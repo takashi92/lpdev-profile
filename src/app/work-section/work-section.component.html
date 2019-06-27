@@ -2,7 +2,12 @@
 <div class="container" id="work">
     <h3 class="text-center">OUR WORK</h3>
     <p class="text-center">What we've done for people</p>
-    <div class="row">
+    <div class="skill-row" *ngFor="let detail of detailProjects">
+        <div class="skill-item" *ngFor="let scr of detail.screen">
+            <img class="w3-hover-opacity" src="{{scr.image}}" alt="" width="200px" height="200px">
+        </div>
+    </div>
+    <!-- <div class="row">
         <div class="col-md-2 col-sm-1"></div>
         <div class="col-md-8 col-sm-10" *ngIf="allScreen && allScreen.length > 0">
             <ng-image-slider [images]="allScreen" [imageSize]="{width: 200, height:200}" [imagePopup]="false" [showArrow]="true" [autoSlide]="1" [infinite]="true" (imageClick)="imageOnClick($event)" #nav>
@@ -29,5 +34,5 @@
             <p><b>Technologies: </b>{{ selectedProject.technologies }}</p>
             <p><b>Project management: </b>{{ selectedProject.management }}</p>
         </div>
-    </div>
+    </div> -->
 </div>

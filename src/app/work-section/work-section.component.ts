@@ -7,8 +7,8 @@ import { NgImageSliderModule, NgImageSliderComponent } from 'ng-image-slider';
   styleUrls: ['./work-section.component.css']
 })
 export class WorkSectionComponent implements OnInit {
-  @ViewChild('nav',null) slider: NgImageSliderComponent;
-
+  @ViewChild('nav', null) slider: NgImageSliderComponent;
+  detailProjects: any[] = [];
   allScreen: any[] = [];
   selectedProjects = new Map();
   selectedProject: DetailProject;
@@ -16,6 +16,7 @@ export class WorkSectionComponent implements OnInit {
   constructor(private jsonHandlerService: JsonHandlerService) {
     // this.selectedScreen=slider.currentImageSrc;
     this.jsonHandlerService.getProjectDetailData().subscribe(details => {
+      this.detailProjects = details;
       let index = 0;
       this.selectedProject = details[0];
       this.selectedScreen = this.selectedProject.screen[0].image;
@@ -29,7 +30,7 @@ export class WorkSectionComponent implements OnInit {
     });
     console.log(this.selectedProjects);
 
-    console.log( this.slider);
+    console.log(this.slider);
   }
 
   ngOnInit() {
@@ -39,7 +40,7 @@ export class WorkSectionComponent implements OnInit {
     console.log("imageOnClick " + index);
     // this.slider.;
     this.selectedProject = this.selectedProjects.get(index);
-    this.selectedScreen=this.selectedProject.screen[0].image;
+    this.selectedScreen = this.selectedProject.screen[0].image;
   }
 
   setSelectedScreen(image) {
