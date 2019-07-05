@@ -92,3 +92,33 @@
     border-radius: 5px;
     background-color: brown;
 }
+
+.home-slider {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 40px 0 -325px 0;
+}
+
+.slider-wrapper {
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;
+    width: 662px;
+    top: 30px;
+    left: 30px;
+}
+
+.imac-device {
+    margin: 0;
+    background: none;
+    position: relative;
+    zoom: 1;
+}
+
+.img-responsive {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
