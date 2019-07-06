@@ -2,7 +2,7 @@
 <div class="container" id="work">
     <h3 class="text-center">OUR WORK</h3>
     <p class="text-center">What we've done for people</p>
-    <div class="d-flex p-2 flex-sm-column flex-lg-row justify-content-center " *ngFor="let detail of detailProjects">
+    <div class="d-flex p-2 flex-column flex-sm-row justify-content-center " *ngFor="let detail of detailProjects">
         <div class="text-center" *ngFor="let scr of detail.screen">
             <img class="align-self-center" src="{{scr.image}}" alt="" width="200px" height="200px">
         </div>
